@@ -1,4 +1,54 @@
+// @import "~bootstrap/scss/bootstrap";
+
 .App {
   height: 100vh;
-  background-color: var(--background-color);
+  // background-color: var(--background-color);
+}
+
+.App {
+  height: 100vh;
+  font-size: 30px;
+  background: linear-gradient(130deg, #09153e, #071746, #001658);
+  background-size: 200% 200%;
+  -webkit-animation: Animation 10s ease infinite;
+  -moz-animation: Animation 10s ease infinite;
+  animation: Animation 10s ease infinite;
+}
+
+.body_wapper {
+  margin-left: 4%;
+}
+
+@-webkit-keyframes Animation {
+  0% {
+    background-position: 10% 0%;
+  }
+  50% {
+    background-position: 91% 100%;
+  }
+  100% {
+    background-position: 10% 0%;
+  }
+}
+@-moz-keyframes Animation {
+  0% {
+    background-position: 10% 0%;
+  }
+  50% {
+    background-position: 91% 100%;
+  }
+  100% {
+    background-position: 10% 0%;
+  }
+}
+@keyframes Animation {
+  0% {
+    background-position: 10% 0%;
+  }
+  50% {
+    background-position: 91% 100%;
+  }
+  100% {
+    background-position: 10% 0%;
+  }
 }

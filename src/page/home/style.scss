@@ -1,3 +1,15 @@
-.text {
-    color: var(--primary-color);
+.text-primary-color {
+  color: #fff;
+}
+
+.text-secondary-color {
+  color: var(--secondary-text-color);
+}
+
+.weather_section {
+  background: rgba(255, 255, 255, 0.18);
+  border-radius: var(--border-radius);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.4px);
+  -webkit-backdrop-filter: blur(5.4px);
 }
